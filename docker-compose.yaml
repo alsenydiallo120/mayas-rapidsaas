@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  webapp:
+    build:
+      dockerfile: prod.Dockerfile
+    image: webapp
+    restart: unless-stopped
+    command: gunicorn --workers=3 website.wsgi:application --bind 0.0.0.0:8001
+    expose:
+      - 8001
+    ports:
+      - "8001:8001"
+    volumes:
+      - static_volume:/code/src/staticfiles
+      - media_volume:/code/src/mediafiles
+      - /data/coolify/proxy/dynamic:/code/src/dynamic
+
+volumes:
+  static_volume:
+  media_volume:

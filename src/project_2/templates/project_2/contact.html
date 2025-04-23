@@ -1,0 +1,19 @@
+
+{% extends "project_2/_base.html" %}
+{% block _content %}
+
+    <section class="flex-1 bg-white dark:bg-gray-900 flex justify-center">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <a href="/" type="button"
+                   class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Retour</a>
+
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+                Contacte-moi</h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Besoin d'aide ?
+                Si tu rencontres un souci avec l'utilisation de {{ webapp_name }} ou si tu as une question,
+                n'hésite pas à me contacter. Je suis là pour te répondre rapidement.</p>
+            <h3 class="mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">ton_email@ton_domain.com</h3>
+        </div>
+    </section>
+
+{% endblock _content %}

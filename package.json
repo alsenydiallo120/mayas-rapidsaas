@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "tw-watch-project-1": "npx tailwindcss -c ./src/project_1/theme.js -i ./src/static/src/input.css -o ./src/static/src/output_project_1.css --watch",
+    "tw-watch-project-2": "npx tailwindcss -c ./src/project_2/theme.js -i ./src/static/src/input.css -o ./src/static/src/output_project_2.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  }
+}

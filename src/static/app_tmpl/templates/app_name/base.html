@@ -1,0 +1,12 @@
+{% verbatim %}
+{% extends "{{ app_name }}/_base.html" %}
+
+{% block _content %}
+    {% include '{{ app_name }}/navbar.html' %}
+
+    {% block content %}
+    {% endblock content %}
+
+    {% include '{{ app_name }}/footer.html' %}
+{% endblock _content %}
+{% endverbatim %}

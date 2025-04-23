@@ -1,0 +1,9 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('{{ app_name}}/', views.index, name='{{ app_name}}__index'),
+    path('{{ app_name}}/info/tos/', views.terms_of_service, name='{{ app_name}}__terms_of_service'),
+    path('{{ app_name}}/info/priv/', views.privacy, name='{{ app_name}}__privacy'),
+    path('{{ app_name}}/info/contact/', views.contact, name='{{ app_name}}__contact'),
+]
