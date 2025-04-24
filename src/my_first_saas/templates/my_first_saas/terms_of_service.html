@@ -1,0 +1,104 @@
+
+{% extends "my_first_saas/_base.html" %}
+{% block _content %}
+    <section class="bg-white py-8 antialiased dark:bg-gray-900">
+        <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
+            <div class="mx-auto max-w-5xl">
+                <a href="/" type="button"
+                   class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Retour</a>
+
+                <h2 class="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">Termes et Conditions</h2>
+                <div class="mt-8 mx-auto max-w-2xl space-y-6">
+                    <ul class="list-outside list-disc space-y-4 pl-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Introduction: </span>
+                            En utilisant {{ webapp_name }}, vous confirmez votre acceptation de ces termes et conditions et
+                            acceptez d'y être lié.
+                        </li>
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Acceptation des Termes et Conditions: </span>
+                            Cet Accord prend effet à la date à laquelle vous utilisez pour la première fois
+                            l'application {{ webapp_name }}.
+                        </li>
+
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Licence Logicielle à Accès Illimité avec Droits de Résiliation: </span>
+                            La licence logicielle {{ webapp_name }} permet d'acquérir le logiciel {{ webapp_name }} par un achat
+                            unique, offrant aux utilisateurs un accès illimité et perpétuel à ses fonctionnalités
+                            complètes. Conçue pour les créateurs indépendants, les entrepreneurs et les petites
+                            entreprises, {{ webapp_name }} permet de créer des pages web et des portfolios en ligne attractifs.
+                            Cette licence offre une approche simple et flexible, exemptant les utilisateurs de frais
+                            récurrents ou d'abonnements. Cependant, il est important de noter que le concédant de
+                            licence se réserve le droit de résilier la licence sans conditions ni prérequis. Cette
+                            disposition permet au concédant de contrôler la distribution et l'utilisation du logiciel.
+                            En optant pour la licence logicielle {{ webapp_name }}, les utilisateurs bénéficient des avantages
+                            du logiciel tout en reconnaissant les droits de résiliation sans restriction du concédant,
+                            qui offrent une flexibilité en cas de circonstances imprévues.
+                        </li>
+
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Remboursements: </span>
+                            En raison de la nature des produits numériques, le boilerplate {{ webapp_name }} ne peut être ni
+                            remboursé ni échangé une fois l'accès accordé.
+                        </li>
+
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Clause de non-responsabilité: </span>
+                            Il n'est pas garanti que {{ webapp_name }} réponde à vos besoins ni que son fonctionnement soit
+                            ininterrompu ou sans erreur. Toutes les garanties expresses et implicites non stipulées dans
+                            cet Accord (y compris, sans limitation, la perte de profits, la perte ou la corruption de
+                            données, l'interruption des activités ou la perte de contrats), dans la mesure où une telle
+                            exclusion ou clause de non-responsabilité est permise par la loi applicable, sont exclues et
+                            expressément rejetées. Cet Accord n'affecte pas vos droits légaux.
+                        </li>
+
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Garanties et Limitation de Responsabilité: </span>
+                            {{ webapp_name }} ne donne aucune garantie, assurance ou autre condition quant à la qualité,
+                            l'adéquation à un usage particulier ou autre du logiciel. {{ webapp_name }} ne pourra être tenu
+                            responsable envers vous en raison de toute représentation (sauf en cas de fraude), ou de
+                            toute garantie implicite, condition ou autre terme, ou de toute obligation en droit commun,
+                            pour toute perte de profit ou toute perte, dommage, coût, dépense ou autre réclamation
+                            indirecte, spéciale ou consécutive (que ce soit causé par la négligence de {{ webapp_name }} ou de
+                            ses employés ou agents ou autrement) qui découlerait ou serait liée à la fourniture de tout
+                            bien ou service par {{ webapp_name }}. {{ webapp_name }} ne sera pas responsable ou considéré comme en
+                            rupture de contrat en raison de tout retard dans l'exécution ou de l'incapacité à exécuter
+                            l'une de ses obligations si le retard ou l'incapacité est dû à une cause indépendante de sa
+                            volonté raisonnable. Nonobstant les clauses contraires de cet Accord, dans le cas où
+                            {{ webapp_name }} serait jugé responsable envers vous pour manquement à cet Accord, vous acceptez
+                            que la responsabilité de {{ webapp_name }} soit limitée au montant effectivement payé par vous pour
+                            les services ou le logiciel, montant calculé en fonction de cette clause. Vous déchargez par
+                            la présente {{ webapp_name }} de toute obligation, responsabilité et réclamation au-delà de cette
+                            limitation.
+                        </li>
+
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Responsabilités: </span>
+                            {{ webapp_name }} n'est pas responsable de ce que l'utilisateur fait avec le contenu généré par
+                            l'utilisateur.
+                        </li>
+
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Ajustements de Prix: </span>
+                            À mesure que nous continuons d'améliorer {{ webapp_name }} et d'étendre nos offres, le prix peut
+                            augmenter. La réduction est offerte pour aider les clients à sécuriser le prix actuel sans
+                            être surpris par de futures augmentations.
+                        </li>
+
+                        <li>
+                            <span class="font-semibold text-gray-900 dark:text-white"> Termes Généraux et Loi Applicable: </span>
+                            Cet Accord est régi par les lois de la France. Vous reconnaissez qu'aucune coentreprise,
+                            partenariat, emploi ou relation d'agence n'existe entre vous et {{ webapp_name }} en conséquence de
+                            votre utilisation de ces services. Vous acceptez de ne pas vous présenter comme
+                            représentant, agent ou employé de {{ webapp_name }}. Vous acceptez que {{ webapp_name }} ne soit pas
+                            responsable en raison de toute représentation, acte ou omission de votre part.
+                        </li>
+
+                    </ul>
+                </div>
+                <h5 class="mt-8 font-semibold text-gray-900 dark:text-white">Dernière mise à jour : 11 août 2024.</h5>
+            </div>
+        </div>
+    </section>
+
+{% endblock _content %}

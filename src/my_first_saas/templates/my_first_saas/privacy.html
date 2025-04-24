@@ -1,0 +1,78 @@
+
+{% extends "my_first_saas/_base.html" %}
+{% block _content %}
+        <section class="bg-white py-8 antialiased dark:bg-gray-900">
+            <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
+                <div class="mx-auto max-w-5xl">
+                    <a href="/" type="button"
+                       class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Retour</a>
+
+                    <h2 class="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">Politique de
+                        Confidentialité</h2>
+                    <div class="mt-8 mx-auto max-w-2xl space-y-6">
+                        <div class="list-outside list-disc space-y-4 pl-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                            <p>
+                                Votre confidentialité est importante pour nous. C'est pourquoi la politique de
+                                {{ webapp_name }} respecte votre vie privée en ce qui concerne toute information que nous
+                                pouvons collecter à travers notre site web et les autres sites que nous possédons et
+                                exploitons.
+                            </p>
+                            <p>
+                                Nous ne demandons des informations personnelles que lorsque nous en avons réellement
+                                besoin pour vous fournir un service. Nous les collectons de manière équitable et légale,
+                                avec votre connaissance et votre consentement. Nous vous expliquons également pourquoi
+                                nous les collectons et comment elles seront utilisées.
+                            </p>
+
+                            <p>
+                                Vous pouvez vous inscrire avec votre compte Google afin que le nom d'utilisateur de
+                                votre compte {{ webapp_name }} soit pré-rempli avec votre nom et votre photo de profil public.
+                            </p>
+
+                            <p>
+                                Nous ne conservons les informations collectées que le temps nécessaire pour vous fournir
+                                le service demandé. Les données que nous stockons sont protégées par des moyens
+                                commercialement acceptables pour prévenir la perte, le vol, ainsi que l'accès non
+                                autorisé, la divulgation, la copie, l'utilisation ou la modification.
+                            </p>
+
+                            <p>
+                                Nous ne partageons aucune information d'identification personnelle publiquement ou avec
+                                des tiers, sauf si la loi l'exige.
+                            </p>
+
+                            <p>
+                                Nous agissons en tant que responsable du traitement des données et en tant que
+                                sous-traitant des données personnelles traitées via {{ webapp_name }} et les services en
+                                conformité avec les lois applicables en matière de protection des données, y compris le
+                                Règlement Général sur la Protection des Données (RGPD) de l'UE.
+                            </p>
+
+                            <p>
+                                Notre site web peut contenir des liens vers des sites externes qui ne sont pas exploités
+                                par nous. Sachez que nous n'avons aucun contrôle sur le contenu et les pratiques de ces
+                                sites et ne pouvons accepter de responsabilité ou de recours pour leurs politiques de
+                                confidentialité respectives.
+                            </p>
+
+                            <p>
+                                Vous êtes libre de refuser notre demande d'informations personnelles, en sachant que
+                                nous pourrions être dans l'impossibilité de vous fournir certains services souhaités.
+                            </p>
+
+                            <p>
+                                Votre utilisation continue de notre site web sera considérée comme une acceptation de
+                                nos pratiques en matière de confidentialité et d'informations personnelles. Si vous avez
+                                des questions sur la manière dont nous gérons les données des utilisateurs et les
+                                informations personnelles, n'hésitez pas à nous contacter.
+                            </p>
+
+                        </div>
+                    </div>
+                    <h5 class="mt-8 font-semibold text-gray-900 dark:text-white">Cette politique est effective à partir
+                        du 11 août 2024.</h5>
+                </div>
+            </div>
+        </section>
+
+{% endblock _content %}
