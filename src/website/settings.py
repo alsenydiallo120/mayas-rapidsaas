@@ -45,7 +45,7 @@ MULTI_SITE_PATTERNS = {
     # Dev en local => DOMAIN_NAME: APP_NAME (tu peux tester 2 projets différents en simultané en local)
     'localhost': Project(app_name='project_1', display_name='Project 1'),
     '127.0.0.1': Project(app_name='project_2', display_name='Project 2'),
-    '127.0.0.1': Project(app_name='my_first_saas', display_name='my_first_saas'),
+    'http://i400gkkkw888o008ccksc0gk.144.126.216.185.sslip.io/': Project(app_name='my_first_saas', display_name='my_first_saas'),
 
     # Production
     # EXAMPLE => 'rapidsaas.fr': Project(app_name='rapidsaas', display_name='Rapid SaaS')
